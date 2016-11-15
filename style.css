@@ -218,7 +218,9 @@ blockquote cite {
     font-style: italic;
     
 }
-
+.aboutHeader {
+    color: navy;
+}
 .aboutHeadings {
     text-decoration: underline;
 }

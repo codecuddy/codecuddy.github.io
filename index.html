@@ -101,33 +101,35 @@ data-target="#navbar-collapse">
         </section>
         
         <section id="about-me">
-            <h2 class="section-title">A Quick Bit About Me</br> <small id="clickForMore">click headings to read more</small></h2><hr>
+            <h2 class="section-title">A Quick Bit About Me</br> <small id="clickForMore">click headings to read more</small></h2>
             <div class="container">
                 <div class="row">
                     <div class="col-sm-4">
-                        <h3 data-toggle="collapse" data-target="#aboutOne" class="aboutHeadings">Family is Number One</h3>
+                        <button class="btn-link" data-toggle="collapse" data-target="#aboutOne" class="aboutHeadings"><h3 class="aboutHeader">Family is Number One</h3></button>
                             <p id="aboutOne" class="collapse">My wife, Jenny, is my best friend. She is a teacher, and 
                             the perfect role model for our daughters, 
                             Josie, Jax, and Penny. These four girls are my life.</p>
                     </div>
                     <div class="col-sm-4">
-                        <h3 data-toggle="collapse" data-target="#aboutTwo" class="aboutHeadings">Nebraska is Home</h3>
-                        <p id="aboutTwo" class="collapse">I currently live, teach and coach in Omaha, and
-                        I am originally from Lincoln. I attended Lincoln 
-                        Pius X High School and UNL. I hope to begin working 
-                        in the Silicon Prairie, and stay in Nebraska.</p>
-                    </div>
-                    <div class="col-sm-4">
-                        <h3 data-toggle="collapse" data-target="#aboutThree" class="aboutHeadings">Learning is my Passion</h3>
+                        <button class="btn-link" data-toggle="collapse" data-target="#aboutThree" class="aboutHeadings"><h3 class="aboutHeader">Learning is my Passion</h3></button>
                         <p id="aboutThree" class="collapse">Anything I can get my hands on and learn about I'm interested in.
                         I am currently teaching myself how to code, and this was the focus
                         of my master's capstone project.</br></br>
                         I would also enjoy working to improve my Spanish.</p>
                     </div>
+                    
+                    <div class="col-sm-4">
+                        <button class="btn-link" data-toggle="collapse" data-target="#aboutTwo" class="aboutHeadings"><h3 class="aboutHeader">Nebraska is Home</h3></button>
+                        <p id="aboutTwo" class="collapse">I currently live, teach and coach in Omaha, and
+                        I am originally from Lincoln. I attended Lincoln 
+                        Pius X High School and UNL. I hope to begin working 
+                        in the Silicon Prairie, and stay in Nebraska.</p>
+                    </div>
+                    
                 </div>
                 <div class="row">
                     <div class="col-sm-4">
-                        <h3 data-toggle="collapse" data-target="#aboutFour" class="aboutHeadings">Valuable Skills</h3>
+                        <button class="btn-link" data-toggle="collapse" data-target="#aboutFour" class="aboutHeadings"><h3 class="aboutHeader">Valuable Skills</h3></button>
                         <div id="aboutFour" class="collapse">
                             <h4>&#8226;Communication</h4>
                                 <p>-Written and spoken communication with people of all 
@@ -148,18 +150,7 @@ data-target="#navbar-collapse">
                         </div>
                     </div>
                     <div class="col-sm-4">
-                        <h3 data-toggle="collapse" data-target="#aboutFive" class="aboutHeadings">Random Factoids</h3>
-                        <div id="aboutFive" class="collapse">
-                            <h4>&#8226;Some of my Favorite Things</h4>
-                                <p>-Literally anything with my wife and daughters</p>
-                                <p>-Learning, specifically learning to code</p>
-                                <p>-Making people laugh</p>
-                                <p>-Sports</p>
-                                <p>-Fantasy Football</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <h3 data-toggle="collapse" data-target="#aboutSix" class="aboutHeadings">Additional Skills</h3>
+                        <button class="btn-link" data-toggle="collapse" data-target="#aboutSix" class="aboutHeadings"><h3 class="aboutHeader">Additional Skills</h3></button>
                         <div id="aboutSix" class="collapse">    
                             <h4>&#8226;Building Relationships</h4>
                                 <p>-Create a family atmosphere of teamwork and trust with other teachers, 
@@ -172,6 +163,18 @@ data-target="#navbar-collapse">
                             <h4>&#8226;Flexible yet Assertive</h4>
                                 <p>-Adjust lessons and workouts to fit the needs of the students, while
                                 keeping focus on the overall goals.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <button class="btn-link" data-toggle="collapse" data-target="#aboutFive" class="aboutHeadings"><h3 class="aboutHeader">Random Factoids</h3></button>
+                        <div id="aboutFive" class="collapse">
+                            <h4>&#8226;Some of my Favorite Things</h4>
+                                <p>-Literally anything with my wife and daughters</p>
+                                <p>-Podcasts, specifically Freakonomics</p>
+                                <p>-Making people laugh</p>
+                                <p>-Malcolm Gladwell</p>
+                                <p>-Sports</p>
+                                <p>-Fantasy Football</p>
                         </div>
                     </div>
                 </div>
@@ -416,16 +419,12 @@ data-target="#navbar-collapse">
                         <a href="mailto:charliecuddy4@gmail.com">
                             <img src=img/email.png alt="email icon" class="img-circle">
                             <h4 class="center-title">Email</h4>
-                            <p>You don't even need to pay for a stamp.</p>
-                            
                     </div>
                     <div class="col-sm-2">
                         <a href="tel:+1-402-309-0853">
                             <img src=img/phone.png alt="phone icon" class="img-circle">
                             <h4 class="center-title">Phone Number</h4>
                             <h5 id="number">402.309.0853</h5></a>
-                            <p>Shoot me a text or give me a call anytime.</p>
-                            
                     </div>
                     <div class="col-sm-2">
                         <a href="https://www.twitter.com/charliecuddy" target="_blank">
@@ -438,28 +437,21 @@ data-target="#navbar-collapse">
                                 if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+
                                 '://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 
                                 'script', 'twitter-wjs');</script> -->
-                            <p>Love keeping up with the Huskers, and all things sports, 
-                            as well as coding and tech news.</p>
                     </div>
                     <div class="col-sm-2">
                         <a href="https://www.facebook.com/charlie444" target="_blank">
                             <img src=img/facebook.png alt="facebook icon" class="img-circle">
                             <h4 class="center-title">Facebook</h4></a>
-                            <p>Friend me on Facebook, but be warned you'll mainly
-                            find pictures of my daughters.</p>
                     </div>
                     <div class="col-sm-2">
                         <a href="https://www.github.com/codecuddy" target="_blank">
                             <img src=img/github.png alt="github icon" class="img-circle">
                             <h4 class="center-title">GitHub</h4></a>
-                            <p>Self taught developer, and always wanting to learn.
-                            Feedback on projects is always appreciated.</p>
                     </div>
                     <div class="col-sm-2">
                         <a href="https://www.linkedin.com/in/charliecuddy" target="_blank">
                             <img src=img/linkedin.png alt="linkedin icon" class="img-circle">
                             <h4 class="center-title">LinkedIn</h4></a>
-                            <p>Let's link up, all the cool kids are networking.</p>
                     </div>
                 </div>
             </div>
