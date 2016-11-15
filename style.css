@@ -212,7 +212,14 @@ blockquote cite {
     margin-top: 20px;
 }
 
-.col-sm-4 h3 {
+#clickForMore {
+    text-transform: capitalize;
+    color: navy;
+    font-style: italic;
+    
+}
+
+.aboutHeadings {
     text-decoration: underline;
 }
 
