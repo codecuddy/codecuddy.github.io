@@ -69,6 +69,20 @@ section {
     text-shadow: 1px 1px 1px #444;
 }
 
+#codingExperience {
+    background-color: #000080;
+    color: #e6f0ff;
+    text-align: center;
+}
+
+#codingExperience a {
+    color: #ffff00;
+}
+
+#myProjectList {
+    font-size: 18px;
+}
+
 #about-me {
     background-color: #e6f0ff;
     color: #000080;
