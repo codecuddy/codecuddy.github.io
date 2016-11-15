@@ -120,6 +120,10 @@ section {
     border-radius: 15px;
 }
 
+.eduHeadings h3 {
+    color: #ffff00 ;
+}
+
 #strength-title {
     color: #fff;
     text-shadow: none;
