@@ -16,9 +16,11 @@ body,
     display: table-cell;
     vertical-align: middle;
 }
+
 section {
     padding: 110px 0;
 }
+
 .section-title {
     text-align: center;
     font-size: 28px;
@@ -120,7 +122,7 @@ section {
     border-radius: 15px;
 }
 
-.eduHeadings h3 {
+.eduHeadings {
     color: #ffff00 ;
 }
 
@@ -337,6 +339,14 @@ and ( max-width: 568px ) {
     
     #number {
     font-size: 22px;
+    }
+
+    .ed-content {
+        text-align: center;
+    }
+    
+    .ed-content .collapse {
+        text-align: left;
     }
 }
 
