@@ -44,6 +44,7 @@ section {
 }
 
 #name {
+    margin-top: 50px;
     font-size: 70px;
     letter-spacing: -2.5px;
 }
