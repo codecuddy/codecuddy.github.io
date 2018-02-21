@@ -229,13 +229,9 @@ blockquote cite {
     margin-top: 20px;
 }
 
-#clickForMore {
-    text-transform: capitalize;
-    color: navy;
-    font-style: italic;
-    
-}
+
 .aboutHeader {
+    text-align: left;
     color: navy;
 }
 .aboutHeadings {
@@ -290,6 +286,22 @@ footer {
 footer a {
     color: silver;
 }
+
+.arrow-down {
+  width: 0; 
+  height: 0; 
+  top: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  
+  border-top: 10px solid navy;
+}
+
+
+
+
+
+
 
 /* Scrolling */
 
